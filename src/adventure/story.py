@@ -26,6 +26,7 @@ if __name__ == "__main__":
         choice = input()
         choice = choice.strip().lower()
         if choice == 'exit':
+            print("[blue]Thank you for playing! [bold red]Good Bye![/bold red][/blue]")
             break
         
         print(step(choice, events))
